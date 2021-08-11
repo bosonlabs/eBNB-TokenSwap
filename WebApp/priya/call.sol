@@ -1,6 +1,6 @@
 //program using call function.
 //call is a low level function used to interact with other contracts.
-pragma solidity ^0.7.6;
+pragma solidity ^0.8.6;
 
 contract Receiver {
     event Received(address caller, uint amount, string message);
