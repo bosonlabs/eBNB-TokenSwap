@@ -1,4 +1,3 @@
-//program to show the concept of library in solidity.
 pragma solidity ^0.8.6;
 
 library SafeMath {
