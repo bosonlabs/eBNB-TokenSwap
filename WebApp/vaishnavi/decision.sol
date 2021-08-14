@@ -1,4 +1,3 @@
-// program to understand how the decision-making statements works in solidity
 pragma solidity ^0.8.7;
 
 contract SolidityTest {
@@ -21,6 +20,8 @@ contract SolidityTest {
       }       
       return integerToString(result); 
    }
+
+
    function integerToString(uint _i) internal pure 
       returns (string memory) {
       
@@ -38,7 +39,7 @@ contract SolidityTest {
       uint k = len - 1;
       
       while (_i != 0) {
-         bstr[k--] = byte(uint8(48 + _i % 10));
+         
          _i /= 10;
       }
       return string(bstr);//access local variable
