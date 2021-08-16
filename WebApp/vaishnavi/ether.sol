@@ -1,4 +1,3 @@
-//program to show how the ether can send to other contracts using transfer,send,call in solidity.
 pragma solidity ^0.8.7;
 
 contract ReceiveEther {
